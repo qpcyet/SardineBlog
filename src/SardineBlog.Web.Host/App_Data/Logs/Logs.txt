@@ -1,0 +1,902 @@
+DEBUG 2018-05-20 12:07:20,815 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-05-20 12:07:20,916 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-05-20 12:07:20,956 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SardineBlog.Web.Host.Startup.SardineBlogWebHostModule, SardineBlog.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-20 12:07:20,959 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SardineBlog.SardineBlogWebCoreModule, SardineBlog.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-20 12:07:20,960 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SardineBlog.SardineBlogApplicationModule, SardineBlog.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-20 12:07:20,960 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SardineBlog.SardineBlogCoreModule, SardineBlog.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-20 12:07:20,961 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-20 12:07:20,961 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-20 12:07:20,961 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-20 12:07:20,962 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-20 12:07:20,962 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SardineBlog.EntityFrameworkCore.SardineBlogEntityFrameworkModule, SardineBlog.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-20 12:07:20,963 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-20 12:07:20,963 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-20 12:07:20,963 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-20 12:07:20,963 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-20 12:07:20,963 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-20 12:07:20,964 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-20 12:07:20,967 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-05-20 12:07:21,063 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-20 12:07:21,063 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-20 12:07:21,063 [1    ] o.Configuration.LanguageManagementConfig - Converted SardineBlog (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-20 12:07:21,063 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-20 12:07:21,540 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: SardineBlog.EntityFrameworkCore.SardineBlogDbContext, SardineBlog.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-20 12:07:22,357 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-05-20 12:07:22,439 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-05-20 12:07:22,477 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-05-20 12:07:22,496 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: SardineBlog
+DEBUG 2018-05-20 12:07:22,541 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-05-20 12:07:22,658 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-05-20 12:07:22,698 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2018-05-20 12:07:22,698 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SardineBlog.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-05-20 12:07:22,701 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SardineBlog.Users.Dto.CreateUserDto
+DEBUG 2018-05-20 12:07:22,702 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SardineBlog.Users.Dto.UserDto
+DEBUG 2018-05-20 12:07:22,702 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SardineBlog.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-05-20 12:07:22,702 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SardineBlog.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-05-20 12:07:22,702 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SardineBlog.Roles.Dto.CreateRoleDto
+DEBUG 2018-05-20 12:07:22,702 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SardineBlog.Roles.Dto.PermissionDto
+DEBUG 2018-05-20 12:07:22,702 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SardineBlog.Roles.Dto.RoleDto
+DEBUG 2018-05-20 12:07:22,702 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SardineBlog.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-05-20 12:07:22,702 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SardineBlog.MultiTenancy.Dto.TenantDto
+INFO  2018-05-20 12:07:25,492 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2018-05-20 12:07:25,492 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:21021/  0
+INFO  2018-05-20 12:07:25,518 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 86.3137ms 200 
+INFO  2018-05-20 12:07:25,761 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 329.0937ms 404 
+DEBUG 2018-05-20 12:08:01,861 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-05-20 12:08:01,949 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-05-20 12:08:01,980 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SardineBlog.Web.Host.Startup.SardineBlogWebHostModule, SardineBlog.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-20 12:08:01,983 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SardineBlog.SardineBlogWebCoreModule, SardineBlog.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-20 12:08:01,983 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SardineBlog.SardineBlogApplicationModule, SardineBlog.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-20 12:08:01,983 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SardineBlog.SardineBlogCoreModule, SardineBlog.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-20 12:08:01,984 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-20 12:08:01,984 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-20 12:08:01,984 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-20 12:08:01,985 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-20 12:08:01,985 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SardineBlog.EntityFrameworkCore.SardineBlogEntityFrameworkModule, SardineBlog.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-20 12:08:01,985 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-20 12:08:01,985 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-20 12:08:01,986 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-20 12:08:01,986 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-20 12:08:01,986 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-20 12:08:01,986 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-20 12:08:01,989 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-05-20 12:08:02,070 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-20 12:08:02,070 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-20 12:08:02,070 [1    ] o.Configuration.LanguageManagementConfig - Converted SardineBlog (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-20 12:08:02,070 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-20 12:08:02,437 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: SardineBlog.EntityFrameworkCore.SardineBlogDbContext, SardineBlog.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-20 12:08:03,189 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-05-20 12:08:03,265 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-05-20 12:08:03,302 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-05-20 12:08:03,322 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: SardineBlog
+DEBUG 2018-05-20 12:08:03,347 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-05-20 12:08:03,473 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-05-20 12:08:03,515 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2018-05-20 12:08:03,515 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SardineBlog.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-05-20 12:08:03,518 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SardineBlog.Users.Dto.CreateUserDto
+DEBUG 2018-05-20 12:08:03,518 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SardineBlog.Users.Dto.UserDto
+DEBUG 2018-05-20 12:08:03,518 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SardineBlog.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-05-20 12:08:03,518 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SardineBlog.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-05-20 12:08:03,518 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SardineBlog.Roles.Dto.CreateRoleDto
+DEBUG 2018-05-20 12:08:03,518 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SardineBlog.Roles.Dto.PermissionDto
+DEBUG 2018-05-20 12:08:03,518 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SardineBlog.Roles.Dto.RoleDto
+DEBUG 2018-05-20 12:08:03,519 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SardineBlog.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-05-20 12:08:03,519 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SardineBlog.MultiTenancy.Dto.TenantDto
+INFO  2018-05-20 12:08:06,116 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2018-05-20 12:08:06,116 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:21021/  0
+INFO  2018-05-20 12:08:06,116 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger  
+INFO  2018-05-20 12:08:06,140 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 87.8187ms 200 
+INFO  2018-05-20 12:08:06,395 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 323.2048ms 404 
+INFO  2018-05-20 12:08:06,397 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 325.2155ms 301 
+INFO  2018-05-20 12:08:06,423 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/  
+INFO  2018-05-20 12:08:06,439 [5    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/index.html'. Physical path: 'N/A'
+INFO  2018-05-20 12:08:06,451 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 49.9945ms 200 text/html
+INFO  2018-05-20 12:08:06,514 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/css/reset.css  
+INFO  2018-05-20 12:08:06,516 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/css/typography.css  
+INFO  2018-05-20 12:08:06,539 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/css/screen.css  
+INFO  2018-05-20 12:08:06,567 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/jquery.slideto.min.js  
+INFO  2018-05-20 12:08:06,568 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/object-assign-pollyfill.js  
+INFO  2018-05-20 12:08:06,590 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/jquery-1.8.0.min.js  
+INFO  2018-05-20 12:08:06,634 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/typography.css'. Physical path: 'N/A'
+INFO  2018-05-20 12:08:06,664 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/object-assign-pollyfill.js'. Physical path: 'N/A'
+INFO  2018-05-20 12:08:06,666 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery.slideto.min.js'. Physical path: 'N/A'
+INFO  2018-05-20 12:08:06,695 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/screen.css'. Physical path: 'N/A'
+INFO  2018-05-20 12:08:06,697 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/reset.css'. Physical path: 'N/A'
+INFO  2018-05-20 12:08:06,698 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 194.5868ms 200 text/css
+INFO  2018-05-20 12:08:06,708 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 127.858ms 200 application/javascript
+INFO  2018-05-20 12:08:06,730 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 230.9268ms 200 text/css
+INFO  2018-05-20 12:08:06,778 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 149.269ms 200 application/javascript
+INFO  2018-05-20 12:08:06,802 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/handlebars-4.0.5.js  
+INFO  2018-05-20 12:08:06,826 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 232.8905ms 200 text/css
+INFO  2018-05-20 12:08:06,868 [5    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/jquery-1.8.0.min.js was not modified
+INFO  2018-05-20 12:08:06,870 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/jquery.wiggle.min.js  
+INFO  2018-05-20 12:08:06,946 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/highlight.9.1.0.pack_extended.js  
+INFO  2018-05-20 12:08:06,950 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 310.0805ms 304 application/javascript
+INFO  2018-05-20 12:08:06,956 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/jquery.ba-bbq.min.js  
+INFO  2018-05-20 12:08:06,961 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery.wiggle.min.js'. Physical path: 'N/A'
+INFO  2018-05-20 12:08:06,987 [12   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/handlebars-4.0.5.js was not modified
+INFO  2018-05-20 12:08:07,032 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/backbone-min.js  
+INFO  2018-05-20 12:08:07,055 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/highlight.9.1.0.pack_extended.js'. Physical path: 'N/A'
+INFO  2018-05-20 12:08:07,077 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/lodash.min.js  
+INFO  2018-05-20 12:08:07,079 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 234.365ms 304 application/javascript
+INFO  2018-05-20 12:08:07,107 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/backbone-min.js was not modified
+INFO  2018-05-20 12:08:07,109 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 208.5523ms 200 application/javascript
+INFO  2018-05-20 12:08:07,131 [13   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/jquery.ba-bbq.min.js was not modified
+INFO  2018-05-20 12:08:07,159 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 159.3325ms 304 application/javascript
+INFO  2018-05-20 12:08:07,183 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 257.5603ms 304 application/javascript
+INFO  2018-05-20 12:08:07,252 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 229.9663ms 200 application/javascript
+INFO  2018-05-20 12:08:07,320 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/marked.js  
+INFO  2018-05-20 12:08:07,321 [5    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/lodash.min.js was not modified
+INFO  2018-05-20 12:08:07,323 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/swagger-oauth.js  
+INFO  2018-05-20 12:08:07,351 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.min.js  
+INFO  2018-05-20 12:08:07,352 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/jsoneditor.min.js  
+INFO  2018-05-20 12:08:07,355 [13   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/swagger-oauth.js was not modified
+INFO  2018-05-20 12:08:07,381 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 367.1819ms 304 application/javascript
+INFO  2018-05-20 12:08:07,449 [12   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui.min.js was not modified
+INFO  2018-05-20 12:08:07,479 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/marked.js was not modified
+INFO  2018-05-20 12:08:07,482 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/jsoneditor.min.js was not modified
+INFO  2018-05-20 12:08:07,508 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 59.2749ms 304 application/javascript
+INFO  2018-05-20 12:08:07,531 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 205.2099ms 304 application/javascript
+INFO  2018-05-20 12:08:07,536 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 363.7465ms 304 application/javascript
+INFO  2018-05-20 12:08:07,558 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/highlight.9.1.0.pack.js  
+INFO  2018-05-20 12:08:07,560 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 231.2382ms 304 application/javascript
+INFO  2018-05-20 12:08:07,586 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/images/logo_small.png  
+INFO  2018-05-20 12:08:07,613 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/highlight.9.1.0.pack.js was not modified
+INFO  2018-05-20 12:08:07,638 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 235.8754ms 304 application/javascript
+INFO  2018-05-20 12:08:07,646 [5    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/images/logo_small.png'. Physical path: 'N/A'
+INFO  2018-05-20 12:08:07,670 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/css/print.css  
+INFO  2018-05-20 12:08:07,674 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 138.7105ms 200 image/png
+INFO  2018-05-20 12:08:07,682 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/print.css'. Physical path: 'N/A'
+INFO  2018-05-20 12:08:07,687 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 42.8051ms 200 text/css
+INFO  2018-05-20 12:08:07,713 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2018-05-20 12:08:07,899 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 205.8641ms 200 application/json
+INFO  2018-05-20 12:08:08,137 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js?_=1526789288108  
+INFO  2018-05-20 12:08:08,139 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/on-complete.js?_=1526789288108  
+INFO  2018-05-20 12:08:08,204 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'E:\MyGit\SardineBlog_ABP\src\SardineBlog.Web.Host\wwwroot\swagger\ui\abp.js'
+INFO  2018-05-20 12:08:08,205 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/on-complete.js'. Physical path: 'E:\MyGit\SardineBlog_ABP\src\SardineBlog.Web.Host\wwwroot\swagger\ui\on-complete.js'
+INFO  2018-05-20 12:08:08,221 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 106.098ms 200 application/javascript
+INFO  2018-05-20 12:08:08,247 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 108.1396ms 200 application/javascript
+INFO  2018-05-20 12:09:30,608 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2018-05-20 12:09:30,616 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-20 12:09:30,634 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 22.4492ms 204 
+INFO  2018-05-20 12:09:30,638 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll application/json 
+INFO  2018-05-20 12:09:30,641 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-20 12:09:30,723 [5    ] uthentication.JwtBearer.JwtBearerHandler - Failed to validate the token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjEiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiYWRtaW4iLCJBc3BOZXQuSWRlbnRpdHkuU2VjdXJpdHlTdGFtcCI6ImFiNTlkOWE1LTgyY2YtOTAxNS1mMjg3LTM5ZTY4YjAwNjRlNiIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6IkFkbWluIiwic3ViIjoiMSIsImp0aSI6ImJlNmU4ZGJlLTIyOWItNGUyZi1hNzhkLTAwZGJhMDA5OTYxMCIsImlhdCI6MTUyNjc0MTk5NSwibmJmIjoxNTI2NzQxOTk1LCJleHAiOjE1MjY4MjgzOTUsImlzcyI6Ik15QUJQUHJvamVjdCIsImF1ZCI6Ik15QUJQUHJvamVjdCJ9.jcoSE0b97e0uUyF2LTX3uKrsiSJxdXTC-BcZmALXVik.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidSignatureException: IDX10503: Signature validation failed. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey , KeyId: 
+'.
+Exceptions caught:
+ ''.
+token: '{"alg":"HS256","typ":"JWT"}.{"http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier":"1","http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name":"admin","AspNet.Identity.SecurityStamp":"ab59d9a5-82cf-9015-f287-39e68b0064e6","http://schemas.microsoft.com/ws/2008/06/identity/claims/role":"Admin","sub":"1","jti":"be6e8dbe-229b-4e2f-a78d-00dba0099610","iat":1526741995,"nbf":1526741995,"exp":1526828395,"iss":"MyABPProject","aud":"MyABPProject"}'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.<HandleAuthenticateAsync>d__6.MoveNext()
+INFO  2018-05-20 12:09:30,729 [5    ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: IDX10503: Signature validation failed. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey , KeyId: 
+'.
+Exceptions caught:
+ ''.
+token: '{"alg":"HS256","typ":"JWT"}.{"http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier":"1","http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name":"admin","AspNet.Identity.SecurityStamp":"ab59d9a5-82cf-9015-f287-39e68b0064e6","http://schemas.microsoft.com/ws/2008/06/identity/claims/role":"Admin","sub":"1","jti":"be6e8dbe-229b-4e2f-a78d-00dba0099610","iat":1526741995,"nbf":1526741995,"exp":1526828395,"iss":"MyABPProject","aud":"MyABPProject"}'.
+INFO  2018-05-20 12:09:33,466 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-20 12:09:33,561 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) with arguments ((null)) - ModelState is Valid
+INFO  2018-05-20 12:09:34,607 [12   ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value Abp.Web.Models.AjaxResponse.
+INFO  2018-05-20 12:09:34,652 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 1184.5649ms
+INFO  2018-05-20 12:09:34,657 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4016.8962ms 200 application/json; charset=utf-8
+INFO  2018-05-20 12:09:34,668 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2018-05-20 12:09:34,671 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-20 12:09:34,677 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 7.1315ms 204 
+INFO  2018-05-20 12:09:34,682 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations application/json 
+INFO  2018-05-20 12:09:34,686 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-20 12:09:34,699 [6    ] uthentication.JwtBearer.JwtBearerHandler - Failed to validate the token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjEiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiYWRtaW4iLCJBc3BOZXQuSWRlbnRpdHkuU2VjdXJpdHlTdGFtcCI6ImFiNTlkOWE1LTgyY2YtOTAxNS1mMjg3LTM5ZTY4YjAwNjRlNiIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6IkFkbWluIiwic3ViIjoiMSIsImp0aSI6ImJlNmU4ZGJlLTIyOWItNGUyZi1hNzhkLTAwZGJhMDA5OTYxMCIsImlhdCI6MTUyNjc0MTk5NSwibmJmIjoxNTI2NzQxOTk1LCJleHAiOjE1MjY4MjgzOTUsImlzcyI6Ik15QUJQUHJvamVjdCIsImF1ZCI6Ik15QUJQUHJvamVjdCJ9.jcoSE0b97e0uUyF2LTX3uKrsiSJxdXTC-BcZmALXVik.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidSignatureException: IDX10503: Signature validation failed. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey , KeyId: 
+'.
+Exceptions caught:
+ ''.
+token: '{"alg":"HS256","typ":"JWT"}.{"http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier":"1","http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name":"admin","AspNet.Identity.SecurityStamp":"ab59d9a5-82cf-9015-f287-39e68b0064e6","http://schemas.microsoft.com/ws/2008/06/identity/claims/role":"Admin","sub":"1","jti":"be6e8dbe-229b-4e2f-a78d-00dba0099610","iat":1526741995,"nbf":1526741995,"exp":1526828395,"iss":"MyABPProject","aud":"MyABPProject"}'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.<HandleAuthenticateAsync>d__6.MoveNext()
+INFO  2018-05-20 12:09:34,704 [6    ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: IDX10503: Signature validation failed. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey , KeyId: 
+'.
+Exceptions caught:
+ ''.
+token: '{"alg":"HS256","typ":"JWT"}.{"http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier":"1","http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name":"admin","AspNet.Identity.SecurityStamp":"ab59d9a5-82cf-9015-f287-39e68b0064e6","http://schemas.microsoft.com/ws/2008/06/identity/claims/role":"Admin","sub":"1","jti":"be6e8dbe-229b-4e2f-a78d-00dba0099610","iat":1526741995,"nbf":1526741995,"exp":1526828395,"iss":"MyABPProject","aud":"MyABPProject"}'.
+INFO  2018-05-20 12:09:34,717 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-20 12:09:35,026 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method SardineBlog.Sessions.SessionAppService.GetCurrentLoginInformations (SardineBlog.Application) with arguments ((null)) - ModelState is Valid
+INFO  2018-05-20 12:09:35,042 [6    ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-20 12:09:35,054 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action SardineBlog.Sessions.SessionAppService.GetCurrentLoginInformations (SardineBlog.Application) in 337.0611ms
+INFO  2018-05-20 12:09:35,060 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 375.8809ms 200 application/json; charset=utf-8
+INFO  2018-05-20 12:09:49,918 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/TokenAuth/Authenticate  
+INFO  2018-05-20 12:09:49,922 [12   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-20 12:09:49,925 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 7.3378ms 204 
+INFO  2018-05-20 12:09:49,931 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/TokenAuth/Authenticate application/json 77
+INFO  2018-05-20 12:09:49,935 [12   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-20 12:09:49,947 [12   ] uthentication.JwtBearer.JwtBearerHandler - Failed to validate the token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjEiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiYWRtaW4iLCJBc3BOZXQuSWRlbnRpdHkuU2VjdXJpdHlTdGFtcCI6ImFiNTlkOWE1LTgyY2YtOTAxNS1mMjg3LTM5ZTY4YjAwNjRlNiIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6IkFkbWluIiwic3ViIjoiMSIsImp0aSI6ImJlNmU4ZGJlLTIyOWItNGUyZi1hNzhkLTAwZGJhMDA5OTYxMCIsImlhdCI6MTUyNjc0MTk5NSwibmJmIjoxNTI2NzQxOTk1LCJleHAiOjE1MjY4MjgzOTUsImlzcyI6Ik15QUJQUHJvamVjdCIsImF1ZCI6Ik15QUJQUHJvamVjdCJ9.jcoSE0b97e0uUyF2LTX3uKrsiSJxdXTC-BcZmALXVik.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidSignatureException: IDX10503: Signature validation failed. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey , KeyId: 
+'.
+Exceptions caught:
+ ''.
+token: '{"alg":"HS256","typ":"JWT"}.{"http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier":"1","http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name":"admin","AspNet.Identity.SecurityStamp":"ab59d9a5-82cf-9015-f287-39e68b0064e6","http://schemas.microsoft.com/ws/2008/06/identity/claims/role":"Admin","sub":"1","jti":"be6e8dbe-229b-4e2f-a78d-00dba0099610","iat":1526741995,"nbf":1526741995,"exp":1526828395,"iss":"MyABPProject","aud":"MyABPProject"}'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.<HandleAuthenticateAsync>d__6.MoveNext()
+INFO  2018-05-20 12:09:49,952 [12   ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: IDX10503: Signature validation failed. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey , KeyId: 
+'.
+Exceptions caught:
+ ''.
+token: '{"alg":"HS256","typ":"JWT"}.{"http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier":"1","http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name":"admin","AspNet.Identity.SecurityStamp":"ab59d9a5-82cf-9015-f287-39e68b0064e6","http://schemas.microsoft.com/ws/2008/06/identity/claims/role":"Admin","sub":"1","jti":"be6e8dbe-229b-4e2f-a78d-00dba0099610","iat":1526741995,"nbf":1526741995,"exp":1526828395,"iss":"MyABPProject","aud":"MyABPProject"}'.
+INFO  2018-05-20 12:09:49,968 [12   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-20 12:09:50,229 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method SardineBlog.Controllers.TokenAuthController.Authenticate (SardineBlog.Web.Core) with arguments (SardineBlog.Models.TokenAuth.AuthenticateModel) - ModelState is Valid
+INFO  2018-05-20 12:09:51,300 [5    ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-20 12:09:51,305 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action SardineBlog.Controllers.TokenAuthController.Authenticate (SardineBlog.Web.Core) in 1336.4167ms
+INFO  2018-05-20 12:09:51,310 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1380.6699ms 200 application/json; charset=utf-8
+INFO  2018-05-20 12:09:52,573 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2018-05-20 12:09:52,578 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-20 12:09:52,583 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 9.2753ms 204 
+INFO  2018-05-20 12:09:52,588 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll application/json 
+INFO  2018-05-20 12:09:52,591 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-20 12:09:52,596 [5    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-05-20 12:09:52,603 [5    ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-05-20 12:09:52,790 [10   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-20 12:09:52,832 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) with arguments ((null)) - ModelState is Valid
+INFO  2018-05-20 12:09:53,361 [5    ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value Abp.Web.Models.AjaxResponse.
+INFO  2018-05-20 12:09:53,365 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 575.2502ms
+INFO  2018-05-20 12:09:53,369 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 780.4661ms 200 application/json; charset=utf-8
+INFO  2018-05-20 12:09:53,379 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2018-05-20 12:09:53,382 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-20 12:09:53,386 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 6.6715ms 204 
+INFO  2018-05-20 12:09:53,391 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations application/json 
+INFO  2018-05-20 12:09:53,394 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-20 12:09:53,398 [6    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-05-20 12:09:53,400 [6    ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-05-20 12:09:53,406 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-20 12:09:53,427 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method SardineBlog.Sessions.SessionAppService.GetCurrentLoginInformations (SardineBlog.Application) with arguments ((null)) - ModelState is Valid
+INFO  2018-05-20 12:09:53,481 [10   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-20 12:09:53,487 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action SardineBlog.Sessions.SessionAppService.GetCurrentLoginInformations (SardineBlog.Application) in 79.8327ms
+INFO  2018-05-20 12:09:53,491 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 99.2363ms 200 application/json; charset=utf-8
+INFO  2018-05-20 12:09:54,198 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/signalr?enc_auth_token=wNYmO41%2F48SHNstaLVXxHCCre29BZQl1NhC6NM3R3rzpXtPQxVzH6jEzA%2FQhXFN5tu6Fk7pO53uppm1mVXMZgxbyRVz26dnepi%2FFyB6axBY%2B6gq1GL%2BuRQgoiFUCjRN2p8w6LevViwKlHyWZZJZO1DGVSjAi1m2U%2Bog9pkHw9%2FQR4Nl%2FDPnoP9JYDMpZ1zxx09u6s0GZ9%2FQ5Sjk%2BL0UfcSCbl38X8he5w9UIn%2FHvxh7ysM1CiPLsoOwtbiieSRVmrmt0JjnipAn4%2FK283F8GrGwzwgehWsqefmUnM0ckMwP9ZAdwQxWDhxv0IqNw4tDhwUYs%2F1SYdYozdNzgByhgNOBPzQDObNLlWc4vV5VMOiahQRz5aw%2BAo1KFGH%2B85nTvlpGm9fBsxvka4z6vMJENWzY07g%2B%2FRZ55Z9kAH7BMuFuLv4jU81zvPDFSzAY4qCoQszpPACPqX7SPi%2FVt0ku8NwQtIFgGEUCF%2B9seKf0CPIStD9GN%2Fd7A4f0eECTf8ZR79FGuqMfB5xxgdPsESjFtpOMBWKJMURr%2F73%2BwS3cpQNNgQBGzzinIjdL%2FxJP%2F3gxxn4f4Hh5i0ANv5yiHdAIllI9z%2FdiQc3cHHCBXARr2SFFdFUejbwNfBoqTkE1EauHjaeCZUkh5tlj%2F2ZhRLz9Qi6787f1ijEO1mcPQyBXY4bF9GPhX0C%2BUXCcoPuxwfAiGfYiQtWgZp6b%2BAZxLtAZhc0YzjVAaF4QscyeO4mAAI08GwWtOipPWkteFduUWpvIdOOehjyqszPph7Hs1xG339jrBmJwJb5%2F7I%2FtDoc6koPmdZEQmFkx7%2F4fxZuwPMjLe8p78kHueCA0YmAP46jNFuPlKWW3otw8lBAZYT8pDrgN%2Fu3oPBthtLkvGbTiTZo36  
+INFO  2018-05-20 12:09:54,201 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-20 12:09:54,208 [6    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-05-20 12:09:54,211 [6    ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-05-20 12:09:54,301 [6    ] .Internal.Transports.WebSocketsTransport - Socket opened.
+INFO  2018-05-20 12:09:54,391 [5    ] .AspNetCore.SignalR.HubConnectionContext - Using HubProtocol 'json'.
+DEBUG 2018-05-20 12:09:54,425 [5    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"ef3eae2c-6a96-43ea-b0cc-266c10161870","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2018-05-20T12:09:54.4215142+08:00","Properties":{}}
+DEBUG 2018-05-20 12:09:54,480 [5    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: ef3eae2c-6a96-43ea-b0cc-266c10161870
+INFO  2018-05-20 12:10:36,393 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/  
+INFO  2018-05-20 12:10:36,399 [5    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/index.html'. Physical path: 'N/A'
+INFO  2018-05-20 12:10:36,405 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 9.5799ms 200 text/html
+INFO  2018-05-20 12:10:36,480 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/css/reset.css  
+INFO  2018-05-20 12:10:36,511 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/css/screen.css  
+INFO  2018-05-20 12:10:36,514 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/jquery.slideto.min.js  
+INFO  2018-05-20 12:10:36,559 [28   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/object-assign-pollyfill.js  
+INFO  2018-05-20 12:10:36,561 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/jquery-1.8.0.min.js  
+INFO  2018-05-20 12:10:36,582 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/css/typography.css  
+INFO  2018-05-20 12:10:36,652 [28   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/object-assign-pollyfill.js was not modified
+INFO  2018-05-20 12:10:36,674 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /css/reset.css was not modified
+INFO  2018-05-20 12:10:36,675 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /css/screen.css was not modified
+INFO  2018-05-20 12:10:36,685 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 244.1942ms 304 text/css
+INFO  2018-05-20 12:10:36,711 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/jquery.slideto.min.js was not modified
+INFO  2018-05-20 12:10:36,740 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/jquery.ba-bbq.min.js  
+INFO  2018-05-20 12:10:36,741 [28   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 138.4375ms 304 application/javascript
+INFO  2018-05-20 12:10:36,764 [12   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/jquery-1.8.0.min.js was not modified
+INFO  2018-05-20 12:10:36,790 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 249.8534ms 304 text/css
+INFO  2018-05-20 12:10:36,841 [5    ] NetCore.StaticFiles.StaticFileMiddleware - The file /css/typography.css was not modified
+INFO  2018-05-20 12:10:36,864 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 257.9018ms 304 application/javascript
+INFO  2018-05-20 12:10:36,888 [28   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/jquery.wiggle.min.js  
+INFO  2018-05-20 12:10:36,889 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 285.5633ms 304 application/javascript
+INFO  2018-05-20 12:10:36,890 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/jquery.ba-bbq.min.js was not modified
+INFO  2018-05-20 12:10:36,981 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 432.918ms 304 text/css
+INFO  2018-05-20 12:10:37,024 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 180.2892ms 304 application/javascript
+INFO  2018-05-20 12:10:37,077 [28   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/jquery.wiggle.min.js was not modified
+INFO  2018-05-20 12:10:37,099 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/handlebars-4.0.5.js  
+INFO  2018-05-20 12:10:37,122 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/lodash.min.js  
+INFO  2018-05-20 12:10:37,123 [28   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 291.2463ms 304 application/javascript
+INFO  2018-05-20 12:10:37,169 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/backbone-min.js  
+INFO  2018-05-20 12:10:37,170 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.min.js  
+INFO  2018-05-20 12:10:37,217 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/handlebars-4.0.5.js was not modified
+INFO  2018-05-20 12:10:37,219 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/highlight.9.1.0.pack.js  
+INFO  2018-05-20 12:10:37,290 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/lodash.min.js was not modified
+INFO  2018-05-20 12:10:37,314 [12   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/backbone-min.js was not modified
+INFO  2018-05-20 12:10:37,358 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 236.3392ms 304 application/javascript
+INFO  2018-05-20 12:10:37,360 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/highlight.9.1.0.pack.js was not modified
+INFO  2018-05-20 12:10:37,382 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 287.6088ms 304 application/javascript
+INFO  2018-05-20 12:10:37,387 [28   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/highlight.9.1.0.pack_extended.js  
+INFO  2018-05-20 12:10:37,388 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 400.0037ms 304 application/javascript
+INFO  2018-05-20 12:10:37,438 [5    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui.min.js was not modified
+INFO  2018-05-20 12:10:37,449 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 364.8829ms 304 application/javascript
+INFO  2018-05-20 12:10:37,456 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/marked.js  
+INFO  2018-05-20 12:10:37,460 [28   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/highlight.9.1.0.pack_extended.js was not modified
+INFO  2018-05-20 12:10:37,489 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/jsoneditor.min.js  
+INFO  2018-05-20 12:10:37,511 [28   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 312.7619ms 304 application/javascript
+INFO  2018-05-20 12:10:37,556 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/swagger-oauth.js  
+INFO  2018-05-20 12:10:37,559 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/marked.js was not modified
+INFO  2018-05-20 12:10:37,584 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 307.8791ms 304 application/javascript
+INFO  2018-05-20 12:10:37,628 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 112.5777ms 304 application/javascript
+INFO  2018-05-20 12:10:37,671 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/jsoneditor.min.js was not modified
+INFO  2018-05-20 12:10:37,699 [12   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/swagger-oauth.js was not modified
+INFO  2018-05-20 12:10:37,752 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 280.3925ms 304 application/javascript
+INFO  2018-05-20 12:10:37,796 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/images/logo_small.png  
+INFO  2018-05-20 12:10:37,798 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/css/print.css  
+INFO  2018-05-20 12:10:37,799 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 284.6892ms 304 application/javascript
+INFO  2018-05-20 12:10:37,847 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2018-05-20 12:10:37,850 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /css/print.css was not modified
+INFO  2018-05-20 12:10:37,856 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 122.985ms 304 text/css
+INFO  2018-05-20 12:10:37,877 [5    ] NetCore.StaticFiles.StaticFileMiddleware - The file /images/logo_small.png was not modified
+INFO  2018-05-20 12:10:37,884 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 157.3581ms 304 image/png
+INFO  2018-05-20 12:10:37,891 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/images/favicon-32x32.png  
+INFO  2018-05-20 12:10:37,898 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/images/favicon-32x32.png'. Physical path: 'N/A'
+INFO  2018-05-20 12:10:37,903 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 11.2294ms 200 image/png
+INFO  2018-05-20 12:10:37,908 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/images/favicon-16x16.png  
+INFO  2018-05-20 12:10:37,913 [5    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/images/favicon-16x16.png'. Physical path: 'N/A'
+INFO  2018-05-20 12:10:37,920 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 8.1729ms 200 image/png
+INFO  2018-05-20 12:10:37,929 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 203.261ms 200 application/json
+INFO  2018-05-20 12:10:38,140 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js?_=1526789438130  
+INFO  2018-05-20 12:10:38,143 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/on-complete.js?_=1526789438131  
+INFO  2018-05-20 12:10:38,187 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'E:\MyGit\SardineBlog_ABP\src\SardineBlog.Web.Host\wwwroot\swagger\ui\abp.js'
+INFO  2018-05-20 12:10:38,188 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/on-complete.js'. Physical path: 'E:\MyGit\SardineBlog_ABP\src\SardineBlog.Web.Host\wwwroot\swagger\ui\on-complete.js'
+INFO  2018-05-20 12:10:38,197 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 55.624ms 200 application/javascript
+INFO  2018-05-20 12:10:38,198 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 55.0221ms 200 application/javascript
+INFO  2018-05-20 12:10:43,419 [25   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/images/throbber.gif  
+INFO  2018-05-20 12:10:43,423 [31   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/images/explorer_icons.png  
+INFO  2018-05-20 12:10:43,447 [25   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/images/throbber.gif'. Physical path: 'N/A'
+INFO  2018-05-20 12:10:43,511 [31   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/images/explorer_icons.png'. Physical path: 'N/A'
+INFO  2018-05-20 12:10:43,534 [25   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 58.3714ms 200 image/gif
+INFO  2018-05-20 12:10:43,579 [31   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 114.4051ms 200 image/png
+INFO  2018-05-20 12:10:58,128 [25   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/User/GetAll?SkipCount=0&MaxResultCount=100  
+INFO  2018-05-20 12:10:58,295 [25   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method SardineBlog.Users.UserAppService.GetAll (SardineBlog.Application) with arguments (Abp.Application.Services.Dto.PagedResultRequestDto) - ModelState is Valid
+WARN  2018-05-20 12:10:58,368 [10   ] Mvc.ExceptionHandling.AbpExceptionFilter - Current user did not login to the application!
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 43
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 98
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 57
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationInterceptor.Intercept(IInvocation invocation) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationInterceptor.cs:line 20
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Github\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 83
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.UserAppServiceProxy.GetAll(PagedResultRequestDto input)
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.ExecuteAsync(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+INFO  2018-05-20 12:10:58,390 [10   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-20 12:10:58,396 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action SardineBlog.Users.UserAppService.GetAll (SardineBlog.Application) in 256.1649ms
+INFO  2018-05-20 12:10:58,400 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 272.399ms 401 application/json; charset=utf-8
+INFO  2018-05-20 12:11:48,489 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2018-05-20 12:11:48,502 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 12.4875ms 200 application/json
+INFO  2018-05-20 12:11:48,684 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js?_=1526789508674  
+INFO  2018-05-20 12:11:48,709 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'E:\MyGit\SardineBlog_ABP\src\SardineBlog.Web.Host\wwwroot\swagger\ui\abp.js'
+INFO  2018-05-20 12:11:48,711 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/on-complete.js?_=1526789508674  
+INFO  2018-05-20 12:11:48,742 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/on-complete.js'. Physical path: 'E:\MyGit\SardineBlog_ABP\src\SardineBlog.Web.Host\wwwroot\swagger\ui\on-complete.js'
+INFO  2018-05-20 12:11:48,746 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 42.8355ms 200 application/javascript
+INFO  2018-05-20 12:11:48,771 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 64.2704ms 200 application/javascript
+INFO  2018-05-20 12:11:51,980 [31   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2018-05-20 12:11:51,993 [31   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 12.3867ms 200 application/json
+INFO  2018-05-20 12:11:52,192 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js?_=1526789512160  
+INFO  2018-05-20 12:11:52,194 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/on-complete.js?_=1526789512160  
+INFO  2018-05-20 12:11:52,219 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'E:\MyGit\SardineBlog_ABP\src\SardineBlog.Web.Host\wwwroot\swagger\ui\abp.js'
+INFO  2018-05-20 12:11:52,220 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/on-complete.js'. Physical path: 'E:\MyGit\SardineBlog_ABP\src\SardineBlog.Web.Host\wwwroot\swagger\ui\on-complete.js'
+INFO  2018-05-20 12:11:52,275 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 64.9767ms 200 application/javascript
+INFO  2018-05-20 12:11:52,297 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 64.1771ms 200 application/javascript
+DEBUG 2018-05-20 12:18:28,038 [10   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: ef3eae2c-6a96-43ea-b0cc-266c10161870
+INFO  2018-05-20 12:18:28,056 [11   ] .Internal.Transports.WebSocketsTransport - Socket closed.
+INFO  2018-05-20 12:18:28,065 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 513866.5518ms 101 
+INFO  2018-05-20 12:18:29,375 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2018-05-20 12:18:29,380 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-20 12:18:29,388 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 13.9174ms 204 
+INFO  2018-05-20 12:18:29,397 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll application/json 
+INFO  2018-05-20 12:18:29,401 [12   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-20 12:18:29,406 [12   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-05-20 12:18:29,410 [12   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-05-20 12:18:29,417 [12   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-20 12:18:29,442 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) with arguments ((null)) - ModelState is Valid
+INFO  2018-05-20 12:18:29,491 [11   ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value Abp.Web.Models.AjaxResponse.
+INFO  2018-05-20 12:18:29,495 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 77.191ms
+INFO  2018-05-20 12:18:29,500 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 101.6455ms 200 application/json; charset=utf-8
+INFO  2018-05-20 12:18:29,513 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2018-05-20 12:18:29,516 [10   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-20 12:18:29,522 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 7.4018ms 204 
+INFO  2018-05-20 12:18:29,528 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations application/json 
+INFO  2018-05-20 12:18:29,532 [10   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-20 12:18:29,537 [10   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-05-20 12:18:29,541 [10   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-05-20 12:18:29,548 [10   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-20 12:18:29,576 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method SardineBlog.Sessions.SessionAppService.GetCurrentLoginInformations (SardineBlog.Application) with arguments ((null)) - ModelState is Valid
+INFO  2018-05-20 12:18:29,621 [6    ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-20 12:18:29,626 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action SardineBlog.Sessions.SessionAppService.GetCurrentLoginInformations (SardineBlog.Application) in 76.4936ms
+INFO  2018-05-20 12:18:29,633 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 102.6262ms 200 application/json; charset=utf-8
+INFO  2018-05-20 12:18:30,619 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/signalr?enc_auth_token=wNYmO41%2F48SHNstaLVXxHCCre29BZQl1NhC6NM3R3rzpXtPQxVzH6jEzA%2FQhXFN5tu6Fk7pO53uppm1mVXMZgxbyRVz26dnepi%2FFyB6axBY%2B6gq1GL%2BuRQgoiFUCjRN2p8w6LevViwKlHyWZZJZO1DGVSjAi1m2U%2Bog9pkHw9%2FQR4Nl%2FDPnoP9JYDMpZ1zxx09u6s0GZ9%2FQ5Sjk%2BL0UfcSCbl38X8he5w9UIn%2FHvxh7ysM1CiPLsoOwtbiieSRVmrmt0JjnipAn4%2FK283F8GrGwzwgehWsqefmUnM0ckMwP9ZAdwQxWDhxv0IqNw4tDhwUYs%2F1SYdYozdNzgByhgNOBPzQDObNLlWc4vV5VMOiahQRz5aw%2BAo1KFGH%2B85nTvlpGm9fBsxvka4z6vMJENWzY07g%2B%2FRZ55Z9kAH7BMuFuLv4jU81zvPDFSzAY4qCoQszpPACPqX7SPi%2FVt0ku8NwQtIFgGEUCF%2B9seKf0CPIStD9GN%2Fd7A4f0eECTf8ZR79FGuqMfB5xxgdPsESjFtpOMBWKJMURr%2F73%2BwS3cpQNNgQBGzzinIjdL%2FxJP%2F3gxxn4f4Hh5i0ANv5yiHdAIllI9z%2FdiQc3cHHCBXARr2SFFdFUejbwNfBoqTkE1EauHjaeCZUkh5tlj%2F2ZhRLz9Qi6787f1ijEO1mcPQyBXY4bF9GPhX0C%2BUXCcoPuxwfAiGfYiQtWgZp6b%2BAZxLtAZhc0YzjVAaF4QscyeO4mAAI08GwWtOipPWkteFduUWpvIdOOehjyqszPph7Hs1xG339jrBmJwJb5%2F7I%2FtDoc6koPmdZEQmFkx7%2F4fxZuwPMjLe8p78kHueCA0YmAP46jNFuPlKWW3otw8lBAZYT8pDrgN%2Fu3oPBthtLkvGbTiTZo36  
+INFO  2018-05-20 12:18:30,623 [11   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-20 12:18:30,630 [11   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-05-20 12:18:30,633 [11   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-05-20 12:18:30,640 [11   ] .Internal.Transports.WebSocketsTransport - Socket opened.
+INFO  2018-05-20 12:18:30,710 [10   ] .AspNetCore.SignalR.HubConnectionContext - Using HubProtocol 'json'.
+DEBUG 2018-05-20 12:18:30,718 [10   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"ed0acd92-3ec8-464b-a2c4-304d4b7106de","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2018-05-20T12:18:30.7117385+08:00","Properties":{}}
+DEBUG 2018-05-20 12:18:30,718 [10   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: ed0acd92-3ec8-464b-a2c4-304d4b7106de
+INFO  2018-05-20 12:18:31,741 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/  
+INFO  2018-05-20 12:18:31,745 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/index.html'. Physical path: 'N/A'
+INFO  2018-05-20 12:18:31,749 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 8.5831ms 200 text/html
+INFO  2018-05-20 12:18:31,788 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/css/typography.css  
+INFO  2018-05-20 12:18:31,863 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/jquery-1.8.0.min.js  
+INFO  2018-05-20 12:18:31,907 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/css/reset.css  
+INFO  2018-05-20 12:18:31,909 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/css/screen.css  
+INFO  2018-05-20 12:18:31,912 [35   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/jquery.slideto.min.js  
+INFO  2018-05-20 12:18:31,938 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /css/typography.css was not modified
+INFO  2018-05-20 12:18:31,983 [28   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/object-assign-pollyfill.js  
+INFO  2018-05-20 12:18:31,987 [12   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/jquery-1.8.0.min.js was not modified
+INFO  2018-05-20 12:18:32,012 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /css/reset.css was not modified
+INFO  2018-05-20 12:18:32,059 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /css/screen.css was not modified
+INFO  2018-05-20 12:18:32,060 [28   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/object-assign-pollyfill.js was not modified
+INFO  2018-05-20 12:18:32,106 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 196.0484ms 304 application/javascript
+INFO  2018-05-20 12:18:32,108 [35   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/jquery.slideto.min.js was not modified
+INFO  2018-05-20 12:18:32,132 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 291.5326ms 304 text/css
+INFO  2018-05-20 12:18:32,153 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 196.4682ms 304 text/css
+INFO  2018-05-20 12:18:32,180 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 266.2717ms 304 text/css
+INFO  2018-05-20 12:18:32,261 [28   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 293.1301ms 304 application/javascript
+INFO  2018-05-20 12:18:32,276 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/jquery.wiggle.min.js  
+INFO  2018-05-20 12:18:32,280 [35   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 272.6301ms 304 application/javascript
+INFO  2018-05-20 12:18:32,325 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/jquery.ba-bbq.min.js  
+INFO  2018-05-20 12:18:32,328 [28   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/backbone-min.js  
+INFO  2018-05-20 12:18:32,350 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/lodash.min.js  
+INFO  2018-05-20 12:18:32,397 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/handlebars-4.0.5.js  
+INFO  2018-05-20 12:18:32,421 [28   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/backbone-min.js was not modified
+INFO  2018-05-20 12:18:32,509 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/jquery.wiggle.min.js was not modified
+INFO  2018-05-20 12:18:32,531 [35   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.min.js  
+INFO  2018-05-20 12:18:32,554 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/lodash.min.js was not modified
+INFO  2018-05-20 12:18:32,575 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 351.5377ms 304 application/javascript
+INFO  2018-05-20 12:18:32,597 [12   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/jquery.ba-bbq.min.js was not modified
+INFO  2018-05-20 12:18:32,624 [28   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 146.3314ms 304 application/javascript
+INFO  2018-05-20 12:18:32,715 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 374.3893ms 304 application/javascript
+INFO  2018-05-20 12:18:32,741 [28   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/highlight.9.1.0.pack.js  
+INFO  2018-05-20 12:18:32,743 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/highlight.9.1.0.pack_extended.js  
+INFO  2018-05-20 12:18:32,767 [35   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui.min.js was not modified
+INFO  2018-05-20 12:18:32,777 [28   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/highlight.9.1.0.pack.js was not modified
+INFO  2018-05-20 12:18:32,781 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 337.7759ms 304 application/javascript
+INFO  2018-05-20 12:18:32,829 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/jsoneditor.min.js  
+INFO  2018-05-20 12:18:32,855 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/highlight.9.1.0.pack_extended.js was not modified
+INFO  2018-05-20 12:18:32,857 [35   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 324.5029ms 304 application/javascript
+INFO  2018-05-20 12:18:32,947 [35   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/swagger-oauth.js  
+INFO  2018-05-20 12:18:32,948 [28   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 83.5875ms 304 application/javascript
+INFO  2018-05-20 12:18:32,969 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/jsoneditor.min.js was not modified
+INFO  2018-05-20 12:18:32,974 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/handlebars-4.0.5.js was not modified
+INFO  2018-05-20 12:18:33,003 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/marked.js  
+INFO  2018-05-20 12:18:33,005 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 741.8689ms 304 application/javascript
+INFO  2018-05-20 12:18:33,006 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 229.6722ms 304 application/javascript
+INFO  2018-05-20 12:18:33,053 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 230.6528ms 304 application/javascript
+INFO  2018-05-20 12:18:33,055 [35   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/swagger-oauth.js was not modified
+INFO  2018-05-20 12:18:33,141 [35   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 173.4982ms 304 application/javascript
+INFO  2018-05-20 12:18:33,188 [12   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/marked.js was not modified
+INFO  2018-05-20 12:18:33,190 [28   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/images/logo_small.png  
+INFO  2018-05-20 12:18:33,196 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 356.1144ms 304 application/javascript
+INFO  2018-05-20 12:18:33,266 [28   ] NetCore.StaticFiles.StaticFileMiddleware - The file /images/logo_small.png was not modified
+INFO  2018-05-20 12:18:33,288 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/css/print.css  
+INFO  2018-05-20 12:18:33,290 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2018-05-20 12:18:33,294 [28   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 188.857ms 304 image/png
+INFO  2018-05-20 12:18:33,300 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /css/print.css was not modified
+INFO  2018-05-20 12:18:33,304 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 104.0732ms 304 text/css
+INFO  2018-05-20 12:18:33,313 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/images/favicon-32x32.png  
+INFO  2018-05-20 12:18:33,318 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/images/favicon-32x32.png'. Physical path: 'N/A'
+INFO  2018-05-20 12:18:33,323 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 8.8611ms 200 image/png
+INFO  2018-05-20 12:18:33,329 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/images/favicon-16x16.png  
+INFO  2018-05-20 12:18:33,335 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 110.8857ms 200 application/json
+INFO  2018-05-20 12:18:33,361 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /images/favicon-16x16.png was not modified
+INFO  2018-05-20 12:18:33,364 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 35.757ms 304 image/png
+INFO  2018-05-20 12:18:33,547 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/on-complete.js?_=1526789913533  
+INFO  2018-05-20 12:18:33,549 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js?_=1526789913533  
+INFO  2018-05-20 12:18:33,555 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/on-complete.js'. Physical path: 'E:\MyGit\SardineBlog_ABP\src\SardineBlog.Web.Host\wwwroot\swagger\ui\on-complete.js'
+INFO  2018-05-20 12:18:33,557 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'E:\MyGit\SardineBlog_ABP\src\SardineBlog.Web.Host\wwwroot\swagger\ui\abp.js'
+INFO  2018-05-20 12:18:33,584 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 33.1625ms 200 application/javascript
+INFO  2018-05-20 12:18:33,609 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 46.6689ms 200 application/javascript
+INFO  2018-05-20 12:18:33,664 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/images/throbber.gif  
+INFO  2018-05-20 12:18:33,665 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/images/explorer_icons.png  
+INFO  2018-05-20 12:18:33,711 [12   ] NetCore.StaticFiles.StaticFileMiddleware - The file /images/throbber.gif was not modified
+INFO  2018-05-20 12:18:33,732 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /images/explorer_icons.png was not modified
+INFO  2018-05-20 12:18:33,739 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 72.8946ms 304 image/gif
+INFO  2018-05-20 12:18:33,760 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 92.5768ms 304 image/png
+INFO  2018-05-20 12:18:55,243 [28   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/css/typography.css  
+INFO  2018-05-20 12:18:55,313 [38   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/css/reset.css  
+INFO  2018-05-20 12:18:55,314 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/css/screen.css  
+INFO  2018-05-20 12:18:55,316 [28   ] NetCore.StaticFiles.StaticFileMiddleware - The file /css/typography.css was not modified
+INFO  2018-05-20 12:18:55,363 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/css/print.css  
+INFO  2018-05-20 12:18:55,389 [28   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 105.5339ms 304 text/css
+INFO  2018-05-20 12:18:55,413 [38   ] NetCore.StaticFiles.StaticFileMiddleware - The file /css/reset.css was not modified
+INFO  2018-05-20 12:18:55,462 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /css/screen.css was not modified
+INFO  2018-05-20 12:18:55,465 [38   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 201.311ms 304 text/css
+INFO  2018-05-20 12:18:55,468 [12   ] NetCore.StaticFiles.StaticFileMiddleware - The file /css/print.css was not modified
+INFO  2018-05-20 12:18:55,520 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 230.7442ms 304 text/css
+INFO  2018-05-20 12:18:55,521 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 234.6478ms 304 text/css
+INFO  2018-05-20 12:23:48,499 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/TokenAuth/Authenticate application/json 59
+INFO  2018-05-20 12:23:48,543 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method SardineBlog.Controllers.TokenAuthController.Authenticate (SardineBlog.Web.Core) with arguments (SardineBlog.Models.TokenAuth.AuthenticateModel) - ModelState is Valid
+INFO  2018-05-20 12:23:48,980 [11   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-20 12:23:48,983 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action SardineBlog.Controllers.TokenAuthController.Authenticate (SardineBlog.Web.Core) in 476.4022ms
+INFO  2018-05-20 12:23:48,986 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 487.7568ms 200 application/json; charset=utf-8
+INFO  2018-05-20 12:25:46,412 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/TokenAuth/Authenticate application/json-patch+json 89
+INFO  2018-05-20 12:25:46,415 [10   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-05-20 12:25:46,418 [10   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2018-05-20 12:25:46,427 [10   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-05-20 12:25:46,430 [10   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2018-05-20 12:25:46,457 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method SardineBlog.Controllers.TokenAuthController.Authenticate (SardineBlog.Web.Core) with arguments (SardineBlog.Models.TokenAuth.AuthenticateModel) - ModelState is Valid
+INFO  2018-05-20 12:25:46,921 [6    ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-20 12:25:46,925 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action SardineBlog.Controllers.TokenAuthController.Authenticate (SardineBlog.Web.Core) in 497.9987ms
+INFO  2018-05-20 12:25:46,929 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 517.9113ms 200 application/json; charset=utf-8
+INFO  2018-05-20 12:25:57,599 [28   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/User/GetAll?SkipCount=0&MaxResultCount=100  
+INFO  2018-05-20 12:25:57,625 [28   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method SardineBlog.Users.UserAppService.GetAll (SardineBlog.Application) with arguments (Abp.Application.Services.Dto.PagedResultRequestDto) - ModelState is Valid
+WARN  2018-05-20 12:25:57,665 [11   ] Mvc.ExceptionHandling.AbpExceptionFilter - Current user did not login to the application!
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 43
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 98
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 57
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationInterceptor.Intercept(IInvocation invocation) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationInterceptor.cs:line 20
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Github\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 83
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.UserAppServiceProxy.GetAll(PagedResultRequestDto input)
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.ExecuteAsync(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+INFO  2018-05-20 12:25:57,681 [11   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-20 12:25:57,685 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action SardineBlog.Users.UserAppService.GetAll (SardineBlog.Application) in 78.2489ms
+INFO  2018-05-20 12:25:57,689 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 89.202ms 401 application/json; charset=utf-8
+INFO  2018-05-20 12:26:16,726 [43   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/  
+INFO  2018-05-20 12:26:16,731 [43   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/index.html'. Physical path: 'N/A'
+INFO  2018-05-20 12:26:16,734 [43   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 9.1082ms 200 text/html
+INFO  2018-05-20 12:26:16,782 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/css/typography.css  
+INFO  2018-05-20 12:26:16,858 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/css/reset.css  
+INFO  2018-05-20 12:26:16,860 [43   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/jquery.slideto.min.js  
+INFO  2018-05-20 12:26:16,865 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/css/screen.css  
+INFO  2018-05-20 12:26:16,867 [42   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/jquery-1.8.0.min.js  
+INFO  2018-05-20 12:26:16,936 [28   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/object-assign-pollyfill.js  
+INFO  2018-05-20 12:26:16,938 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /css/reset.css was not modified
+INFO  2018-05-20 12:26:16,970 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /css/screen.css was not modified
+INFO  2018-05-20 12:26:16,972 [43   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/jquery.slideto.min.js was not modified
+INFO  2018-05-20 12:26:17,002 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 187.0996ms 304 text/css
+INFO  2018-05-20 12:26:17,003 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /css/typography.css was not modified
+INFO  2018-05-20 12:26:17,026 [28   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/object-assign-pollyfill.js was not modified
+INFO  2018-05-20 12:26:17,031 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 177.6509ms 304 text/css
+INFO  2018-05-20 12:26:17,034 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 247.8458ms 304 text/css
+INFO  2018-05-20 12:26:17,061 [42   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/jquery-1.8.0.min.js was not modified
+INFO  2018-05-20 12:26:17,089 [43   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 187.5896ms 304 application/javascript
+INFO  2018-05-20 12:26:17,098 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/jquery.wiggle.min.js  
+INFO  2018-05-20 12:26:17,126 [42   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 276.9182ms 304 application/javascript
+INFO  2018-05-20 12:26:17,148 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/lodash.min.js  
+INFO  2018-05-20 12:26:17,149 [28   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 242.2189ms 304 application/javascript
+INFO  2018-05-20 12:26:17,193 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/jquery.ba-bbq.min.js  
+INFO  2018-05-20 12:26:17,261 [42   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.min.js  
+INFO  2018-05-20 12:26:17,262 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/jquery.wiggle.min.js was not modified
+INFO  2018-05-20 12:26:17,296 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 203.9166ms 304 application/javascript
+INFO  2018-05-20 12:26:17,320 [43   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/handlebars-4.0.5.js  
+INFO  2018-05-20 12:26:17,344 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/lodash.min.js was not modified
+INFO  2018-05-20 12:26:17,368 [28   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/backbone-min.js  
+INFO  2018-05-20 12:26:17,375 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/jquery.ba-bbq.min.js was not modified
+INFO  2018-05-20 12:26:17,378 [42   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui.min.js was not modified
+INFO  2018-05-20 12:26:17,405 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 283.0193ms 304 application/javascript
+INFO  2018-05-20 12:26:17,406 [43   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/handlebars-4.0.5.js was not modified
+INFO  2018-05-20 12:26:17,431 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/highlight.9.1.0.pack.js  
+INFO  2018-05-20 12:26:17,453 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 277.7422ms 304 application/javascript
+INFO  2018-05-20 12:26:17,475 [28   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/backbone-min.js was not modified
+INFO  2018-05-20 12:26:17,498 [42   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 208.3934ms 304 application/javascript
+INFO  2018-05-20 12:26:17,563 [43   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 283.3877ms 304 application/javascript
+INFO  2018-05-20 12:26:17,675 [42   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/marked.js  
+INFO  2018-05-20 12:26:17,720 [28   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 207.4244ms 304 application/javascript
+INFO  2018-05-20 12:26:17,742 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/highlight.9.1.0.pack_extended.js  
+INFO  2018-05-20 12:26:17,746 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/highlight.9.1.0.pack.js was not modified
+INFO  2018-05-20 12:26:17,793 [42   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/marked.js was not modified
+INFO  2018-05-20 12:26:17,815 [43   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/swagger-oauth.js  
+INFO  2018-05-20 12:26:17,817 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 427.3871ms 304 application/javascript
+INFO  2018-05-20 12:26:17,842 [42   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 185.5482ms 304 application/javascript
+INFO  2018-05-20 12:26:17,863 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/jsoneditor.min.js  
+INFO  2018-05-20 12:26:17,886 [43   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/swagger-oauth.js was not modified
+INFO  2018-05-20 12:26:17,930 [43   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 301.555ms 304 application/javascript
+INFO  2018-05-20 12:26:17,951 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/highlight.9.1.0.pack_extended.js was not modified
+INFO  2018-05-20 12:26:17,981 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/jsoneditor.min.js was not modified
+INFO  2018-05-20 12:26:18,008 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 367.6316ms 304 application/javascript
+INFO  2018-05-20 12:26:18,030 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 307.3489ms 304 application/javascript
+INFO  2018-05-20 12:26:18,056 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/images/logo_small.png  
+INFO  2018-05-20 12:26:18,058 [28   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/css/print.css  
+INFO  2018-05-20 12:26:18,083 [42   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2018-05-20 12:26:18,107 [28   ] NetCore.StaticFiles.StaticFileMiddleware - The file /css/print.css was not modified
+INFO  2018-05-20 12:26:18,152 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /images/logo_small.png was not modified
+INFO  2018-05-20 12:26:18,153 [28   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 99.1812ms 304 text/css
+INFO  2018-05-20 12:26:18,178 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 177.8495ms 304 image/png
+INFO  2018-05-20 12:26:18,195 [42   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 156.4886ms 200 application/json
+INFO  2018-05-20 12:26:18,411 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/on-complete.js?_=1526790378398  
+INFO  2018-05-20 12:26:18,413 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js?_=1526790378398  
+INFO  2018-05-20 12:26:18,458 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'E:\MyGit\SardineBlog_ABP\src\SardineBlog.Web.Host\wwwroot\swagger\ui\abp.js'
+INFO  2018-05-20 12:26:18,459 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/on-complete.js'. Physical path: 'E:\MyGit\SardineBlog_ABP\src\SardineBlog.Web.Host\wwwroot\swagger\ui\on-complete.js'
+INFO  2018-05-20 12:26:18,467 [42   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 57.3645ms 200 application/javascript
+INFO  2018-05-20 12:26:18,511 [28   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 56.4125ms 200 application/javascript
+INFO  2018-05-20 12:26:18,537 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/images/throbber.gif  
+INFO  2018-05-20 12:26:18,540 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /images/throbber.gif was not modified
+INFO  2018-05-20 12:26:18,544 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 28.7906ms 304 image/gif
+INFO  2018-05-20 12:27:04,309 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/images/explorer_icons.png  
+INFO  2018-05-20 12:27:04,317 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /images/explorer_icons.png was not modified
+INFO  2018-05-20 12:27:04,327 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 15.5612ms 304 image/png
+INFO  2018-05-20 12:27:39,374 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/TokenAuth/Authenticate application/json 59
+INFO  2018-05-20 12:27:39,405 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method SardineBlog.Controllers.TokenAuthController.Authenticate (SardineBlog.Web.Core) with arguments (SardineBlog.Models.TokenAuth.AuthenticateModel) - ModelState is Valid
+INFO  2018-05-20 12:27:39,843 [6    ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-20 12:27:39,846 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action SardineBlog.Controllers.TokenAuthController.Authenticate (SardineBlog.Web.Core) in 464.5107ms
+INFO  2018-05-20 12:27:39,849 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 475.8788ms 200 application/json; charset=utf-8
+INFO  2018-05-20 12:27:47,134 [46   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/User/GetAll application/json 
+INFO  2018-05-20 12:27:47,160 [46   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method SardineBlog.Users.UserAppService.GetAll (SardineBlog.Application) with arguments (Abp.Application.Services.Dto.PagedResultRequestDto) - ModelState is Valid
+WARN  2018-05-20 12:27:47,197 [11   ] Mvc.ExceptionHandling.AbpExceptionFilter - Current user did not login to the application!
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 43
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 98
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 57
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationInterceptor.Intercept(IInvocation invocation) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationInterceptor.cs:line 20
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Github\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 83
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.UserAppServiceProxy.GetAll(PagedResultRequestDto input)
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.ExecuteAsync(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+INFO  2018-05-20 12:27:47,213 [11   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-20 12:27:47,216 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action SardineBlog.Users.UserAppService.GetAll (SardineBlog.Application) in 75.1135ms
+INFO  2018-05-20 12:27:47,220 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 85.2429ms 401 application/json; charset=utf-8
+INFO  2018-05-20 12:28:10,339 [42   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/User/GetAll application/json 
+INFO  2018-05-20 12:28:10,345 [42   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-05-20 12:28:10,349 [42   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-05-20 12:28:10,380 [42   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method SardineBlog.Users.UserAppService.GetAll (SardineBlog.Application) with arguments (Abp.Application.Services.Dto.PagedResultRequestDto) - ModelState is Valid
+INFO  2018-05-20 12:28:10,701 [11   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-20 12:28:10,711 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action SardineBlog.Users.UserAppService.GetAll (SardineBlog.Application) in 354.619ms
+INFO  2018-05-20 12:28:10,714 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 376.0644ms 200 application/json; charset=utf-8
+DEBUG 2018-05-20 12:30:05,131 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-05-20 12:30:05,217 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-05-20 12:30:05,247 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SardineBlog.Web.Host.Startup.SardineBlogWebHostModule, SardineBlog.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-20 12:30:05,250 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SardineBlog.SardineBlogWebCoreModule, SardineBlog.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-20 12:30:05,250 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SardineBlog.SardineBlogApplicationModule, SardineBlog.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-20 12:30:05,250 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SardineBlog.SardineBlogCoreModule, SardineBlog.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-20 12:30:05,250 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-20 12:30:05,251 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-20 12:30:05,251 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-20 12:30:05,251 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-20 12:30:05,252 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SardineBlog.EntityFrameworkCore.SardineBlogEntityFrameworkModule, SardineBlog.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-20 12:30:05,252 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-20 12:30:05,252 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-20 12:30:05,252 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-20 12:30:05,253 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-20 12:30:05,253 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-20 12:30:05,253 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-20 12:30:05,256 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-05-20 12:30:05,338 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-20 12:30:05,338 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-20 12:30:05,338 [1    ] o.Configuration.LanguageManagementConfig - Converted SardineBlog (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-20 12:30:05,338 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-20 12:30:05,704 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: SardineBlog.EntityFrameworkCore.SardineBlogDbContext, SardineBlog.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-20 12:30:06,484 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-05-20 12:30:06,562 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-05-20 12:30:06,622 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-05-20 12:30:06,640 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: SardineBlog
+DEBUG 2018-05-20 12:30:06,664 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-05-20 12:30:06,797 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-05-20 12:30:06,834 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2018-05-20 12:30:06,834 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SardineBlog.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-05-20 12:30:06,837 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SardineBlog.Users.Dto.CreateUserDto
+DEBUG 2018-05-20 12:30:06,838 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SardineBlog.Users.Dto.UserDto
+DEBUG 2018-05-20 12:30:06,838 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SardineBlog.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-05-20 12:30:06,838 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SardineBlog.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-05-20 12:30:06,838 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SardineBlog.Roles.Dto.CreateRoleDto
+DEBUG 2018-05-20 12:30:06,838 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SardineBlog.Roles.Dto.PermissionDto
+DEBUG 2018-05-20 12:30:06,838 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SardineBlog.Roles.Dto.RoleDto
+DEBUG 2018-05-20 12:30:06,839 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SardineBlog.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-05-20 12:30:06,839 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SardineBlog.MultiTenancy.Dto.TenantDto
+INFO  2018-05-20 12:30:09,379 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:21021/  0
+INFO  2018-05-20 12:30:09,379 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2018-05-20 12:30:09,401 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 79.9705ms 200 
+INFO  2018-05-20 12:30:09,631 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 308.9606ms 404 
+DEBUG 2018-05-20 12:33:24,574 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-05-20 12:33:24,608 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-05-20 12:33:24,640 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SardineBlog.Web.Host.Startup.SardineBlogWebHostModule, SardineBlog.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-20 12:33:24,643 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SardineBlog.SardineBlogWebCoreModule, SardineBlog.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-20 12:33:24,643 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SardineBlog.SardineBlogApplicationModule, SardineBlog.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-20 12:33:24,644 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SardineBlog.SardineBlogCoreModule, SardineBlog.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-20 12:33:24,644 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-20 12:33:24,644 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-20 12:33:24,644 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-20 12:33:24,645 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-20 12:33:24,645 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SardineBlog.EntityFrameworkCore.SardineBlogEntityFrameworkModule, SardineBlog.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-20 12:33:24,645 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-20 12:33:24,645 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-20 12:33:24,646 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-20 12:33:24,646 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-20 12:33:24,646 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-20 12:33:24,646 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-20 12:33:24,649 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-05-20 12:33:24,713 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-20 12:33:24,714 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-20 12:33:24,714 [1    ] o.Configuration.LanguageManagementConfig - Converted SardineBlog (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-20 12:33:24,714 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-20 12:33:25,019 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: SardineBlog.EntityFrameworkCore.SardineBlogDbContext, SardineBlog.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-20 12:33:25,390 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-05-20 12:33:25,464 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-05-20 12:33:25,500 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-05-20 12:33:25,518 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: SardineBlog
+DEBUG 2018-05-20 12:33:25,542 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-05-20 12:33:25,570 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-05-20 12:33:25,606 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2018-05-20 12:33:25,606 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SardineBlog.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-05-20 12:33:25,609 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SardineBlog.Users.Dto.CreateUserDto
+DEBUG 2018-05-20 12:33:25,610 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SardineBlog.Users.Dto.UserDto
+DEBUG 2018-05-20 12:33:25,610 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SardineBlog.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-05-20 12:33:25,610 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SardineBlog.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-05-20 12:33:25,610 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SardineBlog.Roles.Dto.CreateRoleDto
+DEBUG 2018-05-20 12:33:25,610 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SardineBlog.Roles.Dto.PermissionDto
+DEBUG 2018-05-20 12:33:25,610 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SardineBlog.Roles.Dto.RoleDto
+DEBUG 2018-05-20 12:33:25,610 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SardineBlog.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-05-20 12:33:25,610 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SardineBlog.MultiTenancy.Dto.TenantDto
+INFO  2018-05-20 12:33:27,288 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2018-05-20 12:33:27,302 [13   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-20 12:33:27,306 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 39.0077ms 204 
+INFO  2018-05-20 12:33:27,310 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll application/json 
+INFO  2018-05-20 12:33:27,310 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-20 12:33:27,359 [5    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-05-20 12:33:27,363 [5    ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-05-20 12:33:27,968 [15   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-20 12:33:28,004 [15   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) with arguments ((null)) - ModelState is Valid
+INFO  2018-05-20 12:33:28,791 [14   ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value Abp.Web.Models.AjaxResponse.
+INFO  2018-05-20 12:33:28,840 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 870.9023ms
+INFO  2018-05-20 12:33:28,841 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1530.9916ms 200 application/json; charset=utf-8
+INFO  2018-05-20 12:33:28,851 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2018-05-20 12:33:28,851 [12   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-20 12:33:28,851 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.3047ms 204 
+INFO  2018-05-20 12:33:28,855 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations application/json 
+INFO  2018-05-20 12:33:28,855 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-20 12:33:28,856 [5    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-05-20 12:33:28,856 [5    ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-05-20 12:33:28,865 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-20 12:33:28,925 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method SardineBlog.Sessions.SessionAppService.GetCurrentLoginInformations (SardineBlog.Application) with arguments ((null)) - ModelState is Valid
+INFO  2018-05-20 12:33:28,948 [5    ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-20 12:33:28,959 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action SardineBlog.Sessions.SessionAppService.GetCurrentLoginInformations (SardineBlog.Application) in 93.807ms
+INFO  2018-05-20 12:33:28,959 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 104.1096ms 200 application/json; charset=utf-8
+INFO  2018-05-20 12:33:29,949 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/signalr?enc_auth_token=wNYmO41%2F48SHNstaLVXxHCCre29BZQl1NhC6NM3R3rzpXtPQxVzH6jEzA%2FQhXFN5tu6Fk7pO53uppm1mVXMZgxbyRVz26dnepi%2FFyB6axBY%2B6gq1GL%2BuRQgoiFUCjRN2p8w6LevViwKlHyWZZJZO1DGVSjAi1m2U%2Bog9pkHw9%2FQR4Nl%2FDPnoP9JYDMpZ1zxx09u6s0GZ9%2FQ5Sjk%2BL0UfcSCbl38X8he5w9UIn%2FHvxh7ysM1CiPLsoOwtbiieSRVmrmt0JjnipAn4%2FK283F8GrGwzwgehWsqefmUnM0ckMwP9ZAdwQxWDhxv0IqNw4tDhwUYs%2F1SYdYozdNzgByhgNOBPzQDObNLlWc4vV5VMOiahQRz5aw%2BAo1KFGH%2B85nTvlpGm9fBsxvka4z6vMJENWzY07g%2B%2FRZ55Z9kAH7BMuFuLv4jU81zvPDFSzAY4qCoQszpPACPqX7SPi%2FVt0ku8NwQtIFgGEUCF%2B9seKf0CPIStD9GN%2Fd7A4f0eECTf8ZR79FGuqMfB5xxgdPsESjFtpOMBWKJMURr%2F73%2BwS3cpQNNgQBGzzinIjdL%2FxJP%2F3gxxn4f4Hh5i0ANv5yiHdAIllI9z%2FdiQc3cHHCBXARr2SFFdFUejbwNfBoqTkE1EauHjaeCZUkh5tlj%2F2ZhRLz9Qi6787f1ijEO1mcPQyBXY4bF9GPhX0C%2BUXCcoPuxwfAiGfYiQtWgZp6b%2BAZxLtAZhc0YzjVAaF4QscyeO4mAAI08GwWtOipPWkteFduUWpvIdOOehjyqszPph7Hs1xG339jrBmJwJb5%2F7I%2FtDoc6koPmdZEQmFkx7%2F4fxZuwPMjLe8p78kHueCA0YmAP46jNFuPlKWW3otw8lBAZYT8pDrgN%2Fu3oPBthtLkvGbTiTZo36  
+INFO  2018-05-20 12:33:29,949 [13   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-20 12:33:29,959 [13   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-05-20 12:33:29,959 [13   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-05-20 12:33:30,014 [13   ] .Internal.Transports.WebSocketsTransport - Socket opened.
+INFO  2018-05-20 12:33:30,121 [5    ] .AspNetCore.SignalR.HubConnectionContext - Using HubProtocol 'json'.
+DEBUG 2018-05-20 12:33:30,145 [5    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"683d02e0-3400-4f90-bac7-b82caa6087eb","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2018-05-20T12:33:30.1420275+08:00","Properties":{}}
+DEBUG 2018-05-20 12:33:30,184 [5    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: 683d02e0-3400-4f90-bac7-b82caa6087eb
+INFO  2018-05-20 12:33:47,588 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Configuration/ChangeUiTheme  
+INFO  2018-05-20 12:33:47,588 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-20 12:33:47,588 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.2784ms 204 
+INFO  2018-05-20 12:33:47,593 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Configuration/ChangeUiTheme application/json 23
+INFO  2018-05-20 12:33:47,593 [12   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-20 12:33:47,593 [12   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-05-20 12:33:47,594 [12   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-05-20 12:33:47,610 [12   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-20 12:33:47,672 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method SardineBlog.Configuration.ConfigurationAppService.ChangeUiTheme (SardineBlog.Application) with arguments (SardineBlog.Configuration.Dto.ChangeUiThemeInput) - ModelState is Valid
+INFO  2018-05-20 12:33:47,713 [15   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-20 12:33:47,714 [15   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action SardineBlog.Configuration.ConfigurationAppService.ChangeUiTheme (SardineBlog.Application) in 103.4318ms
+INFO  2018-05-20 12:33:47,715 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 122.5199ms 200 application/json; charset=utf-8
+INFO  2018-05-20 12:33:48,495 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Configuration/ChangeUiTheme application/json 18
+INFO  2018-05-20 12:33:48,495 [12   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-20 12:33:48,496 [12   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-05-20 12:33:48,496 [12   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-05-20 12:33:48,502 [12   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-20 12:33:48,504 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method SardineBlog.Configuration.ConfigurationAppService.ChangeUiTheme (SardineBlog.Application) with arguments (SardineBlog.Configuration.Dto.ChangeUiThemeInput) - ModelState is Valid
+INFO  2018-05-20 12:33:48,525 [10   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-20 12:33:48,525 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action SardineBlog.Configuration.ConfigurationAppService.ChangeUiTheme (SardineBlog.Application) in 23.8811ms
+INFO  2018-05-20 12:33:48,526 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 30.7565ms 200 application/json; charset=utf-8
+INFO  2018-05-20 12:33:48,995 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Configuration/ChangeUiTheme application/json 18
+INFO  2018-05-20 12:33:48,996 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-20 12:33:48,996 [6    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-05-20 12:33:48,996 [6    ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-05-20 12:33:49,002 [14   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-20 12:33:49,004 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method SardineBlog.Configuration.ConfigurationAppService.ChangeUiTheme (SardineBlog.Application) with arguments (SardineBlog.Configuration.Dto.ChangeUiThemeInput) - ModelState is Valid
+INFO  2018-05-20 12:33:49,011 [12   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-20 12:33:49,011 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action SardineBlog.Configuration.ConfigurationAppService.ChangeUiTheme (SardineBlog.Application) in 9.2506ms
+INFO  2018-05-20 12:33:49,011 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 16.053ms 200 application/json; charset=utf-8
+INFO  2018-05-20 12:33:49,426 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Configuration/ChangeUiTheme application/json 16
+INFO  2018-05-20 12:33:49,426 [14   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-20 12:33:49,427 [14   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-05-20 12:33:49,427 [14   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-05-20 12:33:49,432 [13   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-20 12:33:49,434 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method SardineBlog.Configuration.ConfigurationAppService.ChangeUiTheme (SardineBlog.Application) with arguments (SardineBlog.Configuration.Dto.ChangeUiThemeInput) - ModelState is Valid
+INFO  2018-05-20 12:33:49,441 [6    ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-20 12:33:49,441 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action SardineBlog.Configuration.ConfigurationAppService.ChangeUiTheme (SardineBlog.Application) in 8.6974ms
+INFO  2018-05-20 12:33:49,441 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 15.074ms 200 application/json; charset=utf-8
+INFO  2018-05-20 12:33:49,816 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Configuration/ChangeUiTheme application/json 17
+INFO  2018-05-20 12:33:49,816 [13   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-20 12:33:49,817 [13   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-05-20 12:33:49,817 [13   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-05-20 12:33:49,822 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-20 12:33:49,824 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method SardineBlog.Configuration.ConfigurationAppService.ChangeUiTheme (SardineBlog.Application) with arguments (SardineBlog.Configuration.Dto.ChangeUiThemeInput) - ModelState is Valid
+INFO  2018-05-20 12:33:49,831 [11   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-20 12:33:49,831 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action SardineBlog.Configuration.ConfigurationAppService.ChangeUiTheme (SardineBlog.Application) in 8.4248ms
+INFO  2018-05-20 12:33:49,831 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 15.1629ms 200 application/json; charset=utf-8
+DEBUG 2018-05-20 12:33:54,628 [14   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: 683d02e0-3400-4f90-bac7-b82caa6087eb
+INFO  2018-05-20 12:33:54,640 [15   ] .Internal.Transports.WebSocketsTransport - Socket closed.
+INFO  2018-05-20 12:33:54,644 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 24699.2637ms 101 
